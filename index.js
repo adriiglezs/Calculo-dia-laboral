@@ -44,8 +44,23 @@ const indication = () => {
         case 6:
             document.getElementById("result").innerHTML = "Es sabado, momento correcto para dejar todo para mañana";
         break;
+        case 1:
+            document.getElementById("result").innerHTML = "Es Lunes, Ya queremos que sea Viernes";
+            break;
+        case 2:
+            document.getElementById("result").innerHTML = "Es Martes, uffff dia de fondos de pantalla";
+        break;
+        case 3:
+            document.getElementById("result").innerHTML = "Es Miercoles, Huele a mitad de semana";
+            break;
+        case 4:
+            document.getElementById("result").innerHTML = "Es Jueves, momento para reflexionar...";
+        break;
+        case 5:
+            document.getElementById("result").innerHTML = "Es Viernes, mas conocido como VIPS";
+            break;
         default:
-            document.getElementById("result").innerHTML = "Hoy si hay trabajo o escuela";
+            document.getElementById("result").innerHTML = "Quien sabe que carajos hiciste que no existes";
             break;
     }
 };
